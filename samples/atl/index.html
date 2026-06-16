@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ATL Juneteenth Weekend Guide</title>
+<style>
+:root{
+  --navy:#090909; --blue:#4f8cff; --teal:#2ed8c3; --purple:#8a5cff; --gold:#f5c542; --pink:#ff77b7; --cream:#fff8ee; --white:#ffffff; --muted:#edf1ff; --card:#151515; --soft:#23315f; --danger:#ff6b6b; --green:#2fbf71; --juneteenth-red:#d62839; --juneteenth-black:#0b0b0b; --juneteenth-green:#179c52;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;background:linear-gradient(180deg,#090909 0%,#121212 16%,#4d1422 32%,#7f1d5a 52%,#18522f 72%,#f5c542 100%);color:var(--white);line-height:1.45;position:relative}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(135deg,rgba(214,40,57,.12),rgba(245,197,66,.08),rgba(23,156,82,.08),rgba(255,119,183,.08),rgba(79,140,255,.08),rgba(138,92,255,.08));mix-blend-mode:screen}
+a{color:inherit} .app{max-width:540px;margin:0 auto;min-height:100vh;background:linear-gradient(180deg,rgba(8,8,8,.97) 0%,rgba(25,25,25,.98) 18%,rgba(71,16,28,.98) 44%,rgba(23,76,45,.97) 72%,rgba(12,12,12,.99) 100%);box-shadow:0 0 48px rgba(0,0,0,.34);position:relative;overflow:hidden}.app:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 12% 10%, rgba(214,40,57,.22), transparent 20%),radial-gradient(circle at 90% 8%, rgba(245,197,66,.15), transparent 18%),radial-gradient(circle at 84% 70%, rgba(79,140,255,.14), transparent 20%),radial-gradient(circle at 10% 82%, rgba(23,156,82,.16), transparent 18%),radial-gradient(circle at 58% 28%, rgba(255,119,183,.12), transparent 16%)}
+.hero{padding:26px 20px 16px;background:radial-gradient(circle at 12% 10%, rgba(255,119,183,.28), transparent 28%),radial-gradient(circle at 82% 0%, rgba(79,140,255,.22), transparent 30%),radial-gradient(circle at 55% 82%, rgba(23,156,82,.22), transparent 24%),linear-gradient(120deg,#0b0b0b 0%,#2a0d15 20%,#d62839 42%,#f5c542 58%,#179c52 74%,#8a5cff 100%);position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-40px;top:40px;width:160px;height:160px;border:1px solid rgba(255,255,255,.14);border-radius:50%}
+.kicker{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#fff1a8;font-weight:800}.hero h1{margin:8px 0 8px;font-size:32px;line-height:1.05}.hero p{margin:0;color:var(--muted);font-size:14px;max-width:90%}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.badge{font-size:12px;background:linear-gradient(90deg,rgba(214,40,57,.22),rgba(245,197,66,.18),rgba(23,156,82,.18),rgba(79,140,255,.15));border:1px solid rgba(255,255,255,.16);padding:7px 10px;border-radius:999px;color:#f9fbff;backdrop-filter:blur(4px)}.badge.gold{background:linear-gradient(90deg,rgba(245,197,66,.26),rgba(214,40,57,.16));border-color:rgba(245,197,66,.34);color:#fff5c9}
+.nav{position:sticky;top:0;z-index:5;background:linear-gradient(90deg,rgba(10,10,10,.97),rgba(56,12,22,.97),rgba(14,70,38,.97));backdrop-filter:blur(10px);display:flex;gap:8px;overflow-x:auto;padding:10px 12px;border-bottom:1px solid rgba(255,255,255,.08)}.nav button{white-space:nowrap;border:none;border-radius:999px;padding:10px 13px;background:linear-gradient(90deg,rgba(214,40,57,.16),rgba(79,140,255,.14),rgba(23,156,82,.14));color:#eef4ff;font-weight:700;font-size:13px;border:1px solid rgba(255,255,255,.10)}.nav button.active{background:linear-gradient(90deg,#d62839 0%,#ff77b7 18%,#f5c542 36%,#179c52 58%,#4f8cff 79%,#8a5cff 100%);color:#0b0b0b}
+section{display:none;padding:18px 16px 90px}section.active{display:block}.card{background:linear-gradient(135deg,rgba(255,255,255,.10),rgba(255,255,255,.05));border:1px solid rgba(255,255,255,.13);border-radius:18px;padding:16px;margin:12px 0;box-shadow:0 10px 24px rgba(0,0,0,.15);backdrop-filter:blur(10px);position:relative;overflow:hidden}.card:before{content:"";position:absolute;left:0;top:0;right:0;height:4px;background:linear-gradient(90deg,#d62839 0%,#ff77b7 18%,#f5c542 36%,#179c52 58%,#4f8cff 79%,#8a5cff 100%)}.card h2,.card h3{margin:0 0 10px}.card h2{font-size:22px}.card h3{font-size:18px}.sub{color:#b8c8de;font-size:13px;margin:4px 0 0}.pillrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.pill{font-size:12px;border-radius:999px;padding:6px 9px;background:linear-gradient(90deg,rgba(23,156,82,.20),rgba(79,140,255,.16));color:#efffff;border:1px solid rgba(23,156,82,.24)}.pill.pink{background:linear-gradient(90deg,rgba(214,40,57,.18),rgba(255,119,183,.14));border-color:rgba(255,119,183,.30)}.pill.gold{background:linear-gradient(90deg,rgba(245,197,66,.22),rgba(214,40,57,.14));border-color:rgba(245,197,66,.36);color:#fff7d3}.pill.gray{background:rgba(255,255,255,.10);border-color:rgba(255,255,255,.18)}
+.timeline{position:relative}.item{display:grid;grid-template-columns:78px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.08)}.item:last-child{border-bottom:0}.time{font-weight:900;color:var(--gold);font-size:13px}.thing b{font-size:15px}.thing p{margin:3px 0;color:#cad7e8;font-size:13px}.tag{display:inline-block;font-size:11px;padding:3px 7px;border-radius:8px;background:linear-gradient(90deg,rgba(23,156,82,.24),rgba(79,140,255,.20));border:1px solid rgba(23,156,82,.35);margin-top:5px;color:#f3edff}.warn{background:linear-gradient(90deg,rgba(214,40,57,.20),rgba(245,197,66,.14));border-color:rgba(214,40,57,.35)}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;border-radius:12px;padding:10px 12px;background:linear-gradient(90deg,#179c52,#4f8cff,#8a5cff);color:#061024;font-weight:900;font-size:13px;border:0;box-shadow:0 6px 14px rgba(0,0,0,.15)}.btn.secondary{background:linear-gradient(90deg,rgba(214,40,57,.18),rgba(79,140,255,.18),rgba(23,156,82,.18));color:#f0f4ff;border:1px solid rgba(255,255,255,.14)}.btn.gold{background:linear-gradient(90deg,#d62839,#f5c542);color:#0d1030}.btn.pink{background:linear-gradient(90deg,#ff77b7,#d62839);color:#250510}.btn.full{width:100%}
+.daytabs{display:flex;gap:8px;overflow-x:auto;margin:0 0 10px}.daytabs button{background:linear-gradient(90deg,rgba(214,40,57,.16),rgba(79,140,255,.16),rgba(23,156,82,.16));color:#fff;border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:10px 12px;font-weight:800}.daytabs button.active{background:linear-gradient(90deg,#d62839,#ff77b7,#f5c542,#179c52,#4f8cff)}.day{display:none}.day.active{display:block}
+.carousel{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:2px 2px 10px}.option{min-width:82%;scroll-snap-align:start;background:linear-gradient(135deg,rgba(214,40,57,.14),rgba(23,156,82,.12),rgba(138,92,255,.12),rgba(18,25,63,.92));border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:15px;backdrop-filter:blur(8px)}.option h3{margin-bottom:4px}.option p{color:#d7e2f2;font-size:13px}.option .meta{font-size:12px;color:#b9c8de;margin-top:6px}.mini{font-size:12px;color:#b9c8de}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.place{background:linear-gradient(135deg,rgba(214,40,57,.12),rgba(245,197,66,.10),rgba(23,156,82,.10),rgba(18,25,63,.9));border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:13px;backdrop-filter:blur(8px)}.place h3{font-size:15px;margin-bottom:5px}.place p{margin:4px 0;color:#d5e1f3;font-size:12px}.smallactions{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.smallactions a{font-size:11px;padding:7px 8px;border-radius:10px;text-decoration:none;background:linear-gradient(90deg,rgba(214,40,57,.18),rgba(79,140,255,.18),rgba(23,156,82,.18));color:#eef4ff}
+.check{display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.08)}.check input{width:20px;height:20px;accent-color:var(--gold)}.check label{font-size:14px;color:#eef4ff}.check span{display:block;color:#b8c8de;font-size:12px;margin-top:2px}.footer{padding:18px;color:#d0d8ee;font-size:12px;text-align:center}.notice{background:linear-gradient(90deg,rgba(214,40,57,.18),rgba(245,197,66,.14),rgba(23,156,82,.12));border:1px solid rgba(245,197,66,.28);border-radius:16px;padding:12px;color:#fff4ca;font-size:13px;backdrop-filter:blur(8px)}.hidden{display:none}
+@media (max-width:380px){.hero h1{font-size:28px}.item{grid-template-columns:68px 1fr}.grid{grid-template-columns:1fr}.option{min-width:88%}}
+
+.countdown-card{
+  background:linear-gradient(90deg,rgba(214,40,57,.24),rgba(255,119,183,.18),rgba(245,197,66,.16),rgba(23,156,82,.16),rgba(79,140,255,.14),rgba(138,92,255,.16));
+  border:1px solid rgba(255,255,255,.18);
+}
+.countdown-title{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+.pride-ribbon{height:6px;background:linear-gradient(90deg,#d62839 0%,#ff77b7 18%,#f5c542 36%,#179c52 58%,#4f8cff 79%,#8a5cff 100%)}
+.countdown-title h2{margin:0}
+.countdown-badge{font-size:11px;font-weight:900;color:#0d1030;background:linear-gradient(90deg,#d62839,#f5c542,#179c52);padding:6px 9px;border-radius:999px;white-space:nowrap}
+.countdown-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:14px 0 10px}
+.countdown-box{background:linear-gradient(135deg,rgba(18,25,63,.88),rgba(79,140,255,.18),rgba(255,119,183,.14));border:1px solid rgba(255,255,255,.13);border-radius:14px;padding:10px 6px;text-align:center}
+.countdown-box b{display:block;font-size:22px;line-height:1;color:var(--gold)}
+.countdown-box span{display:block;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#bfd2ea;margin-top:5px}
+.countdown-note{font-size:12px;color:#dce9ff;margin:8px 0 0}
+.progress-wrap{height:9px;background:rgba(255,255,255,.12);border-radius:999px;overflow:hidden;margin-top:12px}
+.progress-bar{height:100%;width:0%;background:linear-gradient(90deg,#d62839 0%,#ff77b7 18%,#f5c542 36%,#179c52 58%,#4f8cff 79%,#8a5cff 100%);border-radius:999px;transition:width .5s ease}
+@media (max-width:380px){.countdown-box b{font-size:19px}.countdown-grid{gap:6px}.countdown-badge{font-size:10px}}
+
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="hero">
+    <div class="kicker">June 18–20, 2026</div>
+    <h1>ATL Juneteenth Weekend Guide</h1>
+    <p>A shareable guide for Atlanta events, food, transportation, and flexible weekend plans.</p>
+    <div class="badges"><span class="badge gold">Juneteenth Weekend</span><span class="badge">Downtown ATL</span><span class="badge">Bookstore Crawl</span><span class="badge">MSR Night</span><span class="badge">Pride + Juneteenth</span></div>
+  </header>
+  <div class="pride-ribbon"></div>
+  <nav class="nav" id="mainNav">
+    <button data-target="home" class="active">Home</button><button data-target="timeline">Timeline</button><button data-target="options">Options</button><button data-target="places">Places</button><button data-target="food">Food</button><button data-target="travel">Travel</button><button data-target="checklist">Checklist</button>
+  </nav>
+  <section id="home" class="active">
+
+    <div class="card countdown-card">
+      <div class="countdown-title">
+        <h2>Travel Countdown</h2>
+        <span class="countdown-badge">Outbound flight</span>
+      </div>
+      <p class="sub">Travel day • Thursday, June 18, 2026 • 11:12 AM CT</p>
+      <div class="countdown-grid" aria-live="polite">
+        <div class="countdown-box"><b id="cdDays">--</b><span>Days</span></div>
+        <div class="countdown-box"><b id="cdHours">--</b><span>Hours</span></div>
+        <div class="countdown-box"><b id="cdMins">--</b><span>Minutes</span></div>
+        <div class="countdown-box"><b id="cdSecs">--</b><span>Seconds</span></div>
+      </div>
+      <div class="progress-wrap" aria-hidden="true"><div class="progress-bar" id="countdownProgress"></div></div>
+      <p class="countdown-note" id="countdownMessage">Build in airport buffer and confirm flight details day-of.</p>
+    </div>
+
+    <div class="card">
+      <h2>Trip Snapshot</h2>
+      <p class="sub">A public-friendly overview of the weekend plan, key events, activity options, and useful links.</p>
+      <div class="pillrow"><span class="pill gold">Travel Day</span><span class="pill gold">Return Travel</span><span class="pill">Downtown Atlanta Base</span></div>
+      <div class="actions"><a class="btn gold" href="https://www.google.com/maps/search/?api=1&query=Hyatt%20Regency%20Atlanta%20265%20Peachtree%20St%20NE%20Atlanta%20GA%2030303" target="_blank">Hotel Map</a><a class="btn secondary" href="https://www.hyatt.com/hyatt-regency/en-US/atlra-hyatt-regency-atlanta" target="_blank">Hotel Site</a></div>
+    </div>
+    <div class="card">
+      <h2>Today’s Anchors</h2>
+      <div class="item"><div class="time">Thu</div><div class="thing"><b>Travel + Downtown Arrival</b><p>Morning errands, airport parking, flight to Atlanta, downtown arrival, easy evening.</p></div></div>
+      <div class="item"><div class="time">Fri</div><div class="thing"><b>Bookstore Crawl + MSR</b><p>Juneteenth bookstore crawl, hotel reset, Juneteenth Pride Party at My Sister’s Room.</p></div></div>
+      <div class="item"><div class="time">Sat</div><div class="thing"><b>Festival + Ponce + Airport</b><p>Checkout, Juneteenth Atlanta/Piedmont Park, Ponce City Market/BeltLine, ATL flight home.</p></div></div>
+    </div>
+    <div class="notice"><b>Day-of rule:</b> check Frontier, TSA wait times, MARTA service, and event pages before leaving each major stop. Atlanta will be busy because it is Juneteenth weekend and World Cup season.</div>
+  </section>
+  <section id="timeline">
+    <div class="daytabs"><button class="active" data-day="thu">Thursday 6/18</button><button data-day="fri">Friday 6/19</button><button data-day="sat">Saturday 6/20</button><button data-day="sun">Sunday 6/21</button></div>
+    <div id="thu" class="day active">
+      <div class="card"><h2>Thursday: Houston → ATL</h2><p class="sub">Morning is tight, so pack the night before and build in buffer.</p>
+        <div class="timeline">
+          <div class="item"><div class="time">5:45 AM</div><div class="thing"><b>Wake up + final pack</b><p>Confirm IDs, boarding passes, chargers, travel essentials, and event tickets.</p></div></div>
+          <div class="item"><div class="time">6:35 AM</div><div class="thing"><b>Leave home</b><p>Leave home early with plenty of buffer for morning errands and airport parking.</p><span class="tag warn">No lingering</span></div></div>
+          <div class="item"><div class="time">7:00 AM</div><div class="thing"><b>Morning errand / buffer stop</b><p>Keep this stop efficient and leave enough time for airport parking and shuttle.</p></div></div>
+          <div class="item"><div class="time">7:15 AM</div><div class="thing"><b>Leave first stop for pickup</b><p>Text Kita when leaving: “Heading your way. Tiny logistics Olympics. Be ready ready.”</p></div></div>
+          <div class="item"><div class="time">8:00 AM</div><div class="thing"><b>Pickup stop</b><p>Cory Cornel Lane, Richmond, TX. Quick load-in only.</p><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Cory%20Cornel%20Lane%20Richmond%20TX" target="_blank">Map</a></div></div></div>
+          <div class="item"><div class="time">8:10 AM</div><div class="thing"><b>Leave for Fast Park IAH</b><p>Target: parking lot by 9:00-ish.</p></div></div>
+          <div class="item"><div class="time">9:00 AM</div><div class="thing"><b>Fast Park & Relax IAH</b><p>6655 Will Clayton Pkwy, Humble, TX 77338. Shuttle picks up at the car.</p><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Fast%20Park%20Relax%206655%20Will%20Clayton%20Pkwy%20Humble%20TX%2077338" target="_blank">Map</a><a class="btn secondary" href="https://www.thefastpark.com/airport-parking/houston-bush-intercontinental-iah" target="_blank">Reserve</a></div></div></div>
+          <div class="item"><div class="time">9:25 AM</div><div class="thing"><b>Arrive terminal / security</b><p>Outbound flight. Check terminal in Frontier app day-of; many sources list Frontier at IAH Terminal A, but airports change.</p></div></div>
+          <div class="item"><div class="time">11:12 AM</div><div class="thing"><b>Flight departs IAH</b><p>Outbound flight to Atlanta.</p></div></div>
+          <div class="item"><div class="time">2:30 PM</div><div class="thing"><b>Land at ATL</b><p>Bathroom, bags, then MARTA or rideshare to Hyatt.</p></div></div>
+          <div class="item"><div class="time">3:15 PM</div><div class="thing"><b>Airport → Hyatt</b><p>MARTA: Airport Station to Peachtree Center Station, then connected to Hyatt. Uber if tired or carrying too much.</p><div class="actions"><a class="btn secondary" href="https://www.itsmarta.com/airport.aspx" target="_blank">MARTA Airport</a><a class="btn secondary" href="https://www.itsmarta.com/peachtree-center.aspx" target="_blank">Peachtree Center</a></div></div></div>
+          <div class="item"><div class="time">4:00 PM</div><div class="thing"><b>Hyatt Regency Atlanta</b><p>265 Peachtree St NE, Atlanta, GA 30303. Check in or leave bags with bell staff.</p></div></div>
+          <div class="item"><div class="time">4:30 PM</div><div class="thing"><b>Easy downtown option</b><p>SkyView Atlanta, Centennial Olympic Park area, or hotel snack/reset.</p><span class="tag">Keep it low-stress</span></div></div>
+          <div class="item"><div class="time">5:45 PM</div><div class="thing"><b>Hotel reset block</b><p>Recharge, freshen up, split up for a bit if needed, then meet back before dinner.</p></div></div>
+          <div class="item"><div class="time">7:45 PM</div><div class="thing"><b>Dinner + drinks</b><p>Pick from Ray’s in the City, Max Lager’s, White Oak, or hotel lounge depending on energy.</p></div></div>
+          <div class="item"><div class="time">12:00 AM</div><div class="thing"><b>Back to hotel</b><p>Late returns by Uber/Lyft or walking only if very close and comfortable. Scooter rentals are not a late-night plan.</p></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="fri" class="day">
+      <div class="card"><h2>Friday: Bookstore Crawl + MSR</h2><p class="sub">The reason for the trip, then Juneteenth Pride night.</p>
+        <div class="timeline">
+          <div class="item"><div class="time">8:00 AM</div><div class="thing"><b>Wake up</b><p>Slow morning. Coffee/snack at Hyatt Lobby Market or nearby.</p></div></div>
+          <div class="item"><div class="time">9:15 AM</div><div class="thing"><b>Uber to crawl start</b><p>44th & 3rd Bookseller / Entra West End: 451 Lee St SW, Unit B, Atlanta, GA 30310.</p><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=44th%20and%203rd%20Bookseller%20451%20Lee%20St%20SW%20Unit%20B%20Atlanta%20GA%2030310" target="_blank">Map</a><a class="btn secondary" href="https://www.eventbrite.com/e/2026-jourdan-jordanae-juneteenth-bookstore-crawl-author-chat-tickets-1990057734254" target="_blank">Eventbrite</a></div></div></div>
+          <div class="item"><div class="time">10:00 AM</div><div class="thing"><b>Jourdan & Jordanaé Juneteenth Bookstore Crawl + Author Chat</b><p>Party bus to 4 Black-owned bookstores, then author chat/signing. Confirm exact check-in details from Eventbrite email.</p></div></div>
+          <div class="item"><div class="time">4:15 PM</div><div class="thing"><b>Event ends</b><p>Uber back to Hyatt for decompression, outfit change, and phone charging.</p></div></div>
+          <div class="item"><div class="time">5:45 PM</div><div class="thing"><b>Uber to MSR</b><p>MSR My Sister’s Room, 1104 Crescent Ave NE, Atlanta, GA 30309.</p><div class="actions"><a class="btn pink" href="https://www.google.com/maps/search/?api=1&query=MSR%20My%20Sister%27s%20Room%201104%20Crescent%20Ave%20NE%20Atlanta%20GA%2030309" target="_blank">MSR Map</a><a class="btn secondary" href="https://www.mysistersroom.com/events" target="_blank">MSR Events</a></div></div></div>
+          <div class="item"><div class="time">6:00 PM</div><div class="thing"><b>Juneteenth Pride Party</b><p>Free LGBTQ vendor market, food, drinks, karaoke, and Fem Friday energy.</p><span class="tag">Free before late-night cover window</span></div></div>
+          <div class="item"><div class="time">10:00 PM</div><div class="thing"><b>Decision point</b><p>Stay for Fem Fridays after-party if the vibe is good, or grab a snack and head back to hotel.</p></div></div>
+          <div class="item"><div class="time">12:00 AM</div><div class="thing"><b>Back to hotel</b><p>Uber/Lyft. Do not rely on scooters after 9 PM.</p></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="sat" class="day">
+      <div class="card"><h2>Saturday: Festival + Final ATL Day</h2><p class="sub">Full day before the 9:25 PM flight.</p>
+        <div class="timeline">
+          <div class="item"><div class="time">8:30 AM</div><div class="thing"><b>Wake up + breakfast</b><p>Keep it simple. Pack before leaving the room.</p></div></div>
+          <div class="item"><div class="time">10:30 AM</div><div class="thing"><b>Checkout prep</b><p>Hyatt checkout is typically 11 AM. Leave bags with bell staff.</p></div></div>
+          <div class="item"><div class="time">11:15 AM</div><div class="thing"><b>Head toward Piedmont Park</b><p>Juneteenth Atlanta festival weekend + parade route ends by Piedmont Park.</p><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Piedmont%20Park%20Atlanta%20GA" target="_blank">Piedmont Map</a><a class="btn secondary" href="https://www.juneteenthatl.com/" target="_blank">Juneteenth ATL</a></div></div></div>
+          <div class="item"><div class="time">12:00 PM</div><div class="thing"><b>Juneteenth Atlanta / Piedmont Park</b><p>Walk, vendors, music, parade/festival energy. Bring water, sunscreen, and patience.</p></div></div>
+          <div class="item"><div class="time">3:00 PM</div><div class="thing"><b>Ponce City Market + BeltLine</b><p>675 Ponce De Leon Ave NE, Atlanta, GA 30308. Food hall, shops, BeltLine stroll.</p><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Ponce%20City%20Market%20675%20Ponce%20De%20Leon%20Ave%20NE%20Atlanta%20GA%2030308" target="_blank">Map</a><a class="btn secondary" href="https://poncecitymarket.com/" target="_blank">PCM Site</a></div></div></div>
+          <div class="item"><div class="time">5:15 PM</div><div class="thing"><b>Early dinner / airport meal insurance</b><p>Eat before ATL. Airport food after security can be chaotic and expensive.</p></div></div>
+          <div class="item"><div class="time">6:15 PM</div><div class="thing"><b>Return to Hyatt for bags</b><p>Final bathroom/phone check. Leave for airport by 6:45 PM.</p></div></div>
+          <div class="item"><div class="time">6:45 PM</div><div class="thing"><b>Hyatt → ATL</b><p>MARTA from Peachtree Center to Airport Station or Uber if easier.</p></div></div>
+          <div class="item"><div class="time">7:15 PM</div><div class="thing"><b>Arrive ATL</b><p>Return flight. Check terminal/gate in app.</p><div class="actions"><a class="btn secondary" href="https://www.atl.com/times/" target="_blank">ATL TSA Waits</a></div></div></div>
+          <div class="item"><div class="time">9:25 PM</div><div class="thing"><b>Flight departs ATL</b><p>Return flight to Houston IAH.</p></div></div>
+          <div class="item"><div class="time">10:48 PM</div><div class="thing"><b>Land at IAH</b><p>Fast Park shuttle back to car, then home together.</p></div></div>
+          <div class="item"><div class="time">12:00 AM</div><div class="thing"><b>Home</b><p>No Richmond drop-off tonight. Sunday morning is future-us problem.</p></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="sun" class="day">
+      <div class="card"><h2>Sunday: Soft Landing</h2>
+        <div class="timeline">
+          <div class="item"><div class="time">AM</div><div class="thing"><b>Take Kita home</b><p>Do this after sleep, coffee, and brain cells return.</p></div></div>
+          <div class="item"><div class="time">After</div><div class="thing"><b>Pick up dog</b><p>Confirm Rover Oaks Sunday pickup window. Rover Oaks sources list limited Sunday hours, so verify directly in your reservation/portal.</p></div></div>
+          <div class="item"><div class="time">Later</div><div class="thing"><b>Unpack + recover</b><p>Do laundry or don’t. Love won’t collapse if the suitcase waits one day.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="options">
+    <div class="card"><h2>Option Carousels</h2><p class="sub">Use these when you hit a decision point.</p></div>
+    <div class="card"><h3>Thursday 4:30–5:30 PM: arrival activity</h3><div class="carousel">
+      <div class="option"><h3>SkyView Atlanta</h3><p>Cute, easy, close. Best first-date-trip energy without a huge time commitment.</p><div class="meta">168 Luckie St NW • Thu 10 AM–10 PM</div><div class="actions"><a class="btn secondary" href="https://www.skyviewatlanta.com/" target="_blank">Site</a><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=SkyView%20Atlanta%20168%20Luckie%20St%20NW%20Atlanta" target="_blank">Map</a></div></div>
+      <div class="option"><h3>World of Coca-Cola</h3><p>Touristy but fun. Good if energy is high and y’all want something classic Atlanta.</p><div class="meta">121 Baker St NW • hours vary; online tickets end 1 hr before closing</div><div class="actions"><a class="btn secondary" href="https://www.worldofcoca-cola.com/plan-your-visit" target="_blank">Site</a><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=World%20of%20Coca-Cola%20121%20Baker%20St%20NW%20Atlanta" target="_blank">Map</a></div></div>
+      <div class="option"><h3>Hotel reset</h3><p>Not glamorous. Probably smart. Snacks, unpack, showers, outfit change, zero rushing.</p><div class="meta">Hyatt Lobby Market / hotel lounge</div></div>
+    </div></div>
+    <div class="card"><h3>Friday after 10 PM: stay or snack?</h3><div class="carousel">
+      <div class="option"><h3>Stay at MSR</h3><p>If the music and crowd are good, keep the night going for Fem Fridays.</p><div class="meta">MSR • 1104 Crescent Ave NE</div></div>
+      <div class="option"><h3>Late-night snack</h3><p>Grab something simple and go back before everyone gets cranky-hungry.</p><div class="meta">Use Uber/Lyft; scooters off the table after 9 PM</div></div>
+      <div class="option"><h3>Hotel nightcap</h3><p>Calmer, safer, and usually the better move if Friday has been socially full.</p><div class="meta">Twenty-Two Storys / Hyatt</div></div>
+    </div></div>
+    <div class="card"><h3>Saturday afternoon options</h3><div class="carousel">
+      <div class="option"><h3>Piedmont → Ponce</h3><p>Best overall flow. Juneteenth festival energy, then easy food and shopping.</p><div class="meta">Recommended plan</div></div>
+      <div class="option"><h3>Georgia Aquarium</h3><p>Big Atlanta attraction. Great if y’all want indoor/air-conditioned and are okay with ticket cost.</p><div class="meta">225 Baker St NW • open 365 days; hours vary</div><div class="actions"><a class="btn secondary" href="https://www.georgiaaquarium.org/visitor-information/" target="_blank">Site</a><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Georgia%20Aquarium%20225%20Baker%20St%20NW%20Atlanta" target="_blank">Map</a></div></div>
+      <div class="option"><h3>Civil + Human Rights</h3><p>Meaningful, aligned with Juneteenth weekend, and close to downtown attractions.</p><div class="meta">100 Ivan Allen Jr Blvd NW • Mon-Sat 10–5</div><div class="actions"><a class="btn secondary" href="https://www.civilandhumanrights.org/plan-your-visit/" target="_blank">Site</a><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=National%20Center%20for%20Civil%20and%20Human%20Rights%20100%20Ivan%20Allen%20Jr%20Blvd%20NW%20Atlanta" target="_blank">Map</a></div></div>
+    </div></div>
+  </section>
+  <section id="places">
+    <div class="card"><h2>Key Places + One-Tap Links</h2><p class="sub">Addresses, maps, and official pages. Verify hours day-of.</p></div>
+    <div class="grid">
+      <div class="place"><h3>Hyatt Regency Atlanta</h3><p>265 Peachtree St NE, Atlanta, GA 30303</p><div class="smallactions"><a href="https://www.google.com/maps/search/?api=1&query=Hyatt%20Regency%20Atlanta%20265%20Peachtree%20St%20NE%20Atlanta" target="_blank">Map</a><a href="https://www.hyatt.com/hyatt-regency/en-US/atlra-hyatt-regency-atlanta" target="_blank">Site</a></div></div>
+      <div class="place"><h3>44th & 3rd Bookseller</h3><p>451 Lee St SW Unit B, Atlanta, GA 30310</p><div class="smallactions"><a href="https://www.google.com/maps/search/?api=1&query=44th%20and%203rd%20Bookseller%20451%20Lee%20St%20SW%20Unit%20B%20Atlanta" target="_blank">Map</a><a href="https://44thand3rdbookseller.com/" target="_blank">Site</a></div></div>
+      <div class="place"><h3>MSR My Sister’s Room</h3><p>1104 Crescent Ave NE, Atlanta, GA 30309</p><div class="smallactions"><a href="https://www.google.com/maps/search/?api=1&query=MSR%20My%20Sister%27s%20Room%201104%20Crescent%20Ave%20NE%20Atlanta" target="_blank">Map</a><a href="https://www.mysistersroom.com/events" target="_blank">Events</a></div></div>
+      <div class="place"><h3>Piedmont Park</h3><p>Atlanta, GA 30309</p><div class="smallactions"><a href="https://www.google.com/maps/search/?api=1&query=Piedmont%20Park%20Atlanta%20GA" target="_blank">Map</a><a href="https://www.juneteenthatl.com/" target="_blank">Juneteenth ATL</a></div></div>
+      <div class="place"><h3>Ponce City Market</h3><p>675 Ponce De Leon Ave NE, Atlanta, GA 30308</p><div class="smallactions"><a href="https://www.google.com/maps/search/?api=1&query=Ponce%20City%20Market%20675%20Ponce%20De%20Leon%20Ave%20NE%20Atlanta" target="_blank">Map</a><a href="https://poncecitymarket.com/" target="_blank">Site</a></div></div>
+      <div class="place"><h3>SkyView Atlanta</h3><p>168 Luckie St NW, Atlanta, GA 30303</p><div class="smallactions"><a href="https://www.google.com/maps/search/?api=1&query=SkyView%20Atlanta%20168%20Luckie%20St%20NW%20Atlanta" target="_blank">Map</a><a href="https://www.skyviewatlanta.com/" target="_blank">Site</a></div></div>
+      <div class="place"><h3>National Center for Civil and Human Rights</h3><p>100 Ivan Allen Jr Blvd NW, Atlanta, GA 30313</p><div class="smallactions"><a href="https://www.google.com/maps/search/?api=1&query=National%20Center%20for%20Civil%20and%20Human%20Rights%20Atlanta" target="_blank">Map</a><a href="https://www.civilandhumanrights.org/plan-your-visit/" target="_blank">Site</a></div></div>
+    </div>
+  </section>
+  <section id="food">
+    <div class="card"><h2>Food: Simple + Picky-Friendly</h2><p class="sub">Built around recognizable food: breakfast, burgers, chicken, steak, BBQ, Southern comfort food, coffee, dessert, and food halls with choices.</p></div>
+
+    <div class="card">
+      <h3>Breakfast / coffee</h3>
+      <div class="carousel">
+        <div class="option"><h3>Hyatt Lobby Market</h3><p>Fastest option before the bookstore crawl. Coffee, snacks, and low-effort breakfast.</p><div class="meta">Best for Friday morning when timing matters</div><div class="actions"><a class="btn secondary" href="https://www.hyatt.com/hyatt-regency/en-US/atlra-hyatt-regency-atlanta/dining" target="_blank">Hyatt Dining</a></div></div>
+        <div class="option"><h3>Atlanta Breakfast Club</h3><p>Classic breakfast/brunch energy near downtown. Good if you want chicken & waffles, pancakes, eggs, and comfort food.</p><div class="meta">Best for Thursday/Friday if you have time, or Saturday brunch</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Atlanta%20Breakfast%20Club%20Atlanta%20GA" target="_blank">Map</a></div></div>
+        <div class="option"><h3>Mary Mac’s Tea Room</h3><p>Atlanta classic with Southern comfort food. Works for brunch or lunch if y’all want something local but not too adventurous.</p><div class="meta">Best for Saturday if you want a sit-down meal</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Mary%20Mac%27s%20Tea%20Room%20Atlanta" target="_blank">Map</a></div></div>
+        <div class="option"><h3>The Silver Skillet</h3><p>Old-school diner breakfast. Simple plates, pancakes, eggs, bacon, biscuits, and classic Atlanta feel.</p><div class="meta">Best for Saturday morning if you want easy diner food</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=The%20Silver%20Skillet%20Atlanta" target="_blank">Map</a></div></div>
+        <div class="option"><h3>The Flying Biscuit Cafe</h3><p>Breakfast/brunch with biscuit-heavy comfort food. Good if y’all want something reliable and not fancy.</p><div class="meta">Best for Saturday brunch backup</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Flying%20Biscuit%20Cafe%20Atlanta" target="_blank">Map</a></div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Lunch / casual daytime food</h3>
+      <div class="carousel">
+        <div class="option"><h3>Krog Street Market</h3><p>Best “everybody can find something” choice. Food hall, drinks, dessert, and easy pairing with Krog Street Tunnel.</p><div class="meta">Best for Thursday afternoon or Saturday second stop</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Krog%20Street%20Market%2099%20Krog%20St%20NE%20Atlanta" target="_blank">Map</a><a class="btn secondary" href="https://www.thekrogdistrict.com/" target="_blank">Site</a></div></div>
+        <div class="option"><h3>Ponce City Market</h3><p>Food hall + shops + BeltLine access. Probably the best Saturday flexible food stop.</p><div class="meta">Best for Saturday 3:00–5:15 PM</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Ponce%20City%20Market%20675%20Ponce%20De%20Leon%20Ave%20NE%20Atlanta" target="_blank">Map</a><a class="btn secondary" href="https://poncecitymarket.com/food-and-drink/" target="_blank">Food Hall</a></div></div>
+        <div class="option"><h3>The Varsity</h3><p>Classic Atlanta fast food: burgers, hot dogs, fries, onion rings, shakes. Not fancy, but easy and iconic.</p><div class="meta">Best when picky + hungry wins</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=The%20Varsity%20Atlanta" target="_blank">Map</a></div></div>
+        <div class="option"><h3>Hattie B’s Hot Chicken</h3><p>Simple chicken spot. Choose mild if you do not want to fight for your life.</p><div class="meta">Best for casual lunch/dinner</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Hattie%20B%27s%20Hot%20Chicken%20Atlanta" target="_blank">Map</a></div></div>
+        <div class="option"><h3>Fox Bros. Bar-B-Q</h3><p>BBQ, ribs, brisket, pulled pork, mac & cheese, fries. Great if you want filling and familiar.</p><div class="meta">Best for Saturday if you want real food before airport</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Fox%20Bros%20Bar-B-Q%20Atlanta" target="_blank">Map</a></div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Dinner ideas</h3>
+      <div class="carousel">
+        <div class="option"><h3>Ray’s in the City</h3><p>Steak/seafood/American. Good for a nicer dinner without being intimidating.</p><div class="meta">Best Thursday dinner choice if you want “special but safe”</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Ray%27s%20in%20the%20City%20Atlanta" target="_blank">Map</a></div></div>
+        <div class="option"><h3>Max Lager’s Wood-Fired Grill</h3><p>Casual, reliable, burgers/pizza/wood-fired food. Easy downtown choice.</p><div class="meta">Best if you want lower pressure</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Max%20Lager%27s%20Wood-Fired%20Grill%20Atlanta" target="_blank">Map</a></div></div>
+        <div class="option"><h3>White Oak Kitchen & Cocktails</h3><p>Southern/American. Slightly nicer, still familiar menu territory.</p><div class="meta">Best if you want downtown + cocktails</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=White%20Oak%20Kitchen%20and%20Cocktails%20Atlanta" target="_blank">Map</a></div></div>
+        <div class="option"><h3>Paschal’s</h3><p>Historic Atlanta soul food. Fried chicken, Southern sides, and a meaningful civil-rights-era legacy.</p><div class="meta">Best for a Juneteenth-aligned dinner/lunch</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Paschal%27s%20Restaurant%20Atlanta" target="_blank">Map</a></div></div>
+        <div class="option"><h3>Mary Mac’s Tea Room</h3><p>Southern comfort food with lots of recognizable choices. Works for lunch or dinner.</p><div class="meta">Best comfort-food backup</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Mary%20Mac%27s%20Tea%20Room%20Atlanta" target="_blank">Map</a></div></div>
+        <div class="option"><h3>Hyatt backup</h3><p>When the city feels like too much: Twenty-Two Storys or the Hyatt Lobby Market.</p><div class="meta">Best tired-girl option</div><div class="actions"><a class="btn secondary" href="https://www.hyatt.com/hyatt-regency/en-US/atlra-hyatt-regency-atlanta/dining" target="_blank">Hyatt Dining</a></div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Sweet treats / late-night snacks</h3>
+      <div class="carousel">
+        <div class="option"><h3>Waffle House</h3><p>Not fancy, but reliable late-night food if the post-MSR hunger hits.</p><div class="meta">Best after MSR if you just need food</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Waffle%20House%20near%20Hyatt%20Regency%20Atlanta" target="_blank">Near Hotel</a></div></div>
+        <div class="option"><h3>Insomnia Cookies</h3><p>Easy dessert option if you want something sweet after dinner or after MSR.</p><div class="meta">Best for late-night sweet tooth</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Insomnia%20Cookies%20Atlanta" target="_blank">Map</a></div></div>
+        <div class="option"><h3>Jeni’s Splendid Ice Creams</h3><p>Cute dessert stop if you’re near the BeltLine/Ponce area and want something simple.</p><div class="meta">Best Saturday afternoon dessert</div><div class="actions"><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Jeni%27s%20Splendid%20Ice%20Creams%20Atlanta" target="_blank">Map</a></div></div>
+        <div class="option"><h3>Hotel snack run</h3><p>When you want pajamas, not another Uber. Grab drinks/snacks from the hotel market.</p><div class="meta">Best no-more-people option</div></div>
+      </div>
+    </div>
+
+    <div class="notice"><b>Saturday food rule:</b> eat before ATL. Target an early dinner around 5:15 PM so airport time does not turn into hangry time.</div>
+  </section>
+
+  <section id="travel">
+    <div class="card"><h2>Flights + Transportation</h2>
+      <div class="item"><div class="time">IAH→ATL</div><div class="thing"><b>Outbound flight</b><p>Thu 6/18, depart late morning and arrive mid-afternoon. Check in 24 hours before.</p></div></div>
+      <div class="item"><div class="time">ATL→IAH</div><div class="thing"><b>Return flight</b><p>Sat 6/20, evening return flight.</p></div></div>
+      <div class="actions"><a class="btn gold" href="https://www.flyfrontier.com/travel/my-trips/check-in/" target="_blank">Frontier Check-In</a><a class="btn secondary" href="https://www.flyfrontier.com/travel/my-trips/flight-status/" target="_blank">Flight Status</a></div>
+    </div>
+    <div class="card"><h3>MARTA notes</h3><p>Airport Station → Peachtree Center Station is the key route. Hyatt is connected to Peachtree Center Station. Use MARTA for airport-to-hotel if bags/energy cooperate; use Uber if not.</p><div class="actions"><a class="btn secondary" href="https://www.itsmarta.com/airport.aspx" target="_blank">Airport Station</a><a class="btn secondary" href="https://www.itsmarta.com/peachtree-center.aspx" target="_blank">Peachtree Center</a><a class="btn secondary" href="https://www.itsmarta.com/train-stations-and-schedules.aspx" target="_blank">Schedules</a></div></div>
+    <div class="card"><h3>Scooter reality check</h3><p>Use scooters/e-bikes only for short, daytime moves if they’re available and you feel safe. Atlanta restricts rentals from 9 PM–4 AM and does not allow sidewalk riding.</p></div>
+    <div class="card"><h3>Airport day-of links</h3><div class="actions"><a class="btn secondary" href="https://www.fly2houston.com/iah/" target="_blank">IAH</a><a class="btn secondary" href="https://www.atl.com/times/" target="_blank">ATL TSA Waits</a></div></div>
+  </section>
+  <section id="checklist">
+    <div class="card"><h2>Trip Checklist</h2><p class="sub">Checks save to this browser.</p>
+      <div class="check"><input type="checkbox" id="c1"><label for="c1">Check in for outbound flight<span>Screenshot/save boarding passes.</span></label></div>
+      <div class="check"><input type="checkbox" id="c2"><label for="c2">Confirm airport parking<span>Save parking address and reservation details privately.</span></label></div>
+      <div class="check"><input type="checkbox" id="c3"><label for="c3">Confirm pet care / home logistics<span>Keep any private care details saved separately.</span></label></div>
+      <div class="check"><input type="checkbox" id="c4"><label for="c4">Pack IDs, cards, chargers, battery pack<span>Do not leave the battery pack in the car.</span></label></div>
+      <div class="check"><input type="checkbox" id="c5"><label for="c5">Confirm Thursday morning pickup plan<span>Make sure everyone knows the timing and pickup plan.</span></label></div>
+      <div class="check"><input type="checkbox" id="c6"><label for="c6">Confirm Eventbrite details for bookstore crawl<span>Start location, check-in time, ticket QR code.</span></label></div>
+      <div class="check"><input type="checkbox" id="c7"><label for="c7">Pack Friday MSR outfit + comfy shoes<span>Vendor market + possible after-party.</span></label></div>
+      <div class="check"><input type="checkbox" id="c8"><label for="c8">Saturday: checkout + leave bags at Hyatt bell desk<span>Do this before heading to Piedmont/Ponce.</span></label></div>
+      <div class="check"><input type="checkbox" id="c9"><label for="c9">Saturday: eat before airport<span>Target 5:15 PM early dinner.</span></label></div>
+      <div class="check"><input type="checkbox" id="c10"><label for="c10">Sunday: confirm pickup/drop-off windows<span>Do not assume regular weekday hours for any business.</span></label></div>
+    </div>
+  </section>
+  <div class="footer">ATL Weekend Guide • Verify hours, rideshare prices, event details, and transportation day-of.</div>
+</div>
+<script>
+
+const flightTakeoff = new Date('2026-06-18T11:12:00-05:00'); // IAH local time, Central Daylight Time
+const countdownStart = new Date('2026-06-15T00:00:00-05:00');
+function updateCountdown(){
+  const now = new Date();
+  const diff = flightTakeoff - now;
+  const daysEl = document.getElementById('cdDays');
+  if(!daysEl) return;
+  const hoursEl = document.getElementById('cdHours');
+  const minsEl = document.getElementById('cdMins');
+  const secsEl = document.getElementById('cdSecs');
+  const msgEl = document.getElementById('countdownMessage');
+  const progressEl = document.getElementById('countdownProgress');
+
+  if(diff <= 0){
+    daysEl.textContent = '0';
+    hoursEl.textContent = '0';
+    minsEl.textContent = '0';
+    secsEl.textContent = '0';
+    msgEl.textContent = 'Travel day is here. Check the airline app for the latest gate, boarding, and departure details.';
+    progressEl.style.width = '100%';
+    return;
+  }
+
+  const totalSeconds = Math.floor(diff / 1000);
+  const days = Math.floor(totalSeconds / 86400);
+  const hours = Math.floor((totalSeconds % 86400) / 3600);
+  const mins = Math.floor((totalSeconds % 3600) / 60);
+  const secs = totalSeconds % 60;
+
+  daysEl.textContent = days;
+  hoursEl.textContent = String(hours).padStart(2,'0');
+  minsEl.textContent = String(mins).padStart(2,'0');
+  secsEl.textContent = String(secs).padStart(2,'0');
+
+  const totalWindow = flightTakeoff - countdownStart;
+  const elapsed = now - countdownStart;
+  const pct = Math.max(0, Math.min(100, (elapsed / totalWindow) * 100));
+  progressEl.style.width = pct + '%';
+
+  if(diff <= 2 * 60 * 60 * 1000){
+    msgEl.textContent = 'Less than 2 hours to takeoff. You should already be at IAH and moving toward the gate.';
+  } else if(diff <= 4 * 60 * 60 * 1000){
+    msgEl.textContent = 'Travel mode. Finish pickup stops, airport parking, shuttle, security, gate.';
+  } else {
+    msgEl.textContent = 'Build in airport buffer and confirm flight details day-of.';
+  }
+}
+updateCountdown();
+setInterval(updateCountdown, 1000);
+
+const navButtons=document.querySelectorAll('#mainNav button');const sections=document.querySelectorAll('section');
+navButtons.forEach(btn=>btn.addEventListener('click',()=>{navButtons.forEach(b=>b.classList.remove('active'));btn.classList.add('active');sections.forEach(s=>s.classList.remove('active'));document.getElementById(btn.dataset.target).classList.add('active');window.scrollTo({top:0,behavior:'smooth'});}));
+const dayButtons=document.querySelectorAll('.daytabs button');const days=document.querySelectorAll('.day');
+dayButtons.forEach(btn=>btn.addEventListener('click',()=>{dayButtons.forEach(b=>b.classList.remove('active'));btn.classList.add('active');days.forEach(d=>d.classList.remove('active'));document.getElementById(btn.dataset.day).classList.add('active');}));
+document.querySelectorAll('.check input').forEach(cb=>{const saved=localStorage.getItem(cb.id); if(saved==='true') cb.checked=true; cb.addEventListener('change',()=>localStorage.setItem(cb.id,cb.checked));});
+</script>
+</body>
+</html>
